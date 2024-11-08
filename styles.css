@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #007BFF; /* Blue background color */
+}
+
+#navbar {
+    background-color: #343A40; /* Dark background for the navbar */
+}
+
+.navbar-nav .nav-link {
+    color: #FFF; /* White text color for navbar links */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FFD700; /* Gold color on hover */
+}
+
+#home {
+    padding: 150px 0;
+    background-color: #0056b3; /* Darker blue for home section */
+}
+
+#home h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#home p {
+    font-size: 1.25rem;
+}
+
+#about, #blog {
+    padding: 60px 0;
+}
+
+#about h2, #blog h2 {
+    margin-bottom: 40px;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+}
